@@ -1,0 +1,35 @@
+{
+  "name": "mukti-study",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "@react-native-async-storage/async-storage": "^3.0.1",
+    "lucide-react": "^0.569.0",
+    "lucide-react-native": "^0.577.0",
+    "mermaid": "^11.4.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "react-native": "^0.84.1",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-toast-message": "^2.3.3",
+    "rehype-katex": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "sonner": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
